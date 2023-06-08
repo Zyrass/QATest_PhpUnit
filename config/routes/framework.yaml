@@ -1,0 +1,10 @@
+when@dev:
+    _errors:
+        resource: '@FrameworkBundle/Resources/config/routing/errors.xml'
+        prefix: /_error
+contact:
+    path: /contact
+    controller: App\Controller\ContactController::contactForm
+success:
+    path: /success/{name}
+    controller: App\Controller\ContactController::success

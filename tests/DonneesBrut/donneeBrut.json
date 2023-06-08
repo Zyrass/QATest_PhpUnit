@@ -1,0 +1,25 @@
+{
+    "status200": {
+        "expectedStatusCode": 200
+    },
+    "tagForm": {
+        "expectedTagCount": 1,
+        "tagSelector": "form"
+    },
+    "formInputName": {
+        "expectedTagCount": 1,
+        "tagSelector": "input[name=\"contact[name]\"]"
+    },
+    "formInputEmail": {
+        "expectedTagCount": 1,
+        "tagSelector": "input[name=\"contact[email]\"]"
+    },
+    "formInputPassword": {
+        "expectedTagCount": 1,
+        "tagSelector": "input[name=\"contact[password]\"]"
+    },
+    "formButtonSubmit": {
+        "expectedTagCount": 1,
+        "tagSelector": "button[type=\"submit\"]"
+    }
+}
